@@ -9,7 +9,6 @@ body{
 }
 
 header {
-    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -125,8 +124,56 @@ nav {
     background: none;
     border: none;
     font-size: 20px;
-    color: back;
+    color: black;
     cursor: pointer;
+}
+
+#master {
+    border: 2px solid red;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.container {
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    width: 1170px;
+    font-size: 13px;
+    color: #707070;
+    font-weight: 400;
+}
+
+.textImc {
+    font-size: 14px;
+    color: #959595;
+    padding-right: 210px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: url('/images/linha.jpg') bottom 5px right no-repeat;
+}
+
+.titleBlue {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #1f5eaf;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;
+}
+
+.pIMC {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contentPost {
+    width: 690px;
+    /*float: left;*/
+    margin-top: 30px;
+    border: 2px solid blue;
 }
 
 
@@ -142,6 +189,10 @@ nav {
 
     #linkLogin {
         margin-top: 3%;
+    }
+
+    .container {
+        width: 700px;
     }
 
 
@@ -168,6 +219,14 @@ nav {
         margin-top: 2%;
         width: 40px;
         height: 40px;
+      }
+
+      .container {
+        width: 90%;
+      }
+
+      .contentPost {
+        width: 95%;
       }
 
     
