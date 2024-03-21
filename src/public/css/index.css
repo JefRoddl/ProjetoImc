@@ -6,6 +6,7 @@ html {
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -44,14 +45,15 @@ nav {
     display: inline-block;
     margin-left: 30%;
     margin-top: 1.7%;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     text-decoration: none;
-    color: black;
+    color: #1f5eaf;
+    font-weight: 700;
 }
 
 #linkLogin:hover {
-    color: rgb(9, 97, 212);
+    color: rgb(187, 184, 5);    
     transition: 0.5s;
 }
 
@@ -63,11 +65,12 @@ nav {
     font-family: sans-serif;
     font-size: large;
     text-decoration: none;
-    color: black;
+    color: #1f5eaf;
+    font-weight: 700;
 }
 
 #linkSb:hover {
-    color: rgb(9, 97, 212);
+    color: rgb(187, 184, 5);
     transition: 0.5s;
 }
 
@@ -129,7 +132,7 @@ nav {
 }
 
 #master {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     width: 100%;
     float: left;
     overflow: hidden;
@@ -139,7 +142,7 @@ nav {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
     width: 1170px;
     font-size: 13px;
     color: #707070;
@@ -173,7 +176,21 @@ nav {
     width: 690px;
     /*float: left;*/
     margin-top: 30px;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
+}
+
+.inputCalc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inputCalc input {
+    display: block;
+    width: 130px;
+    padding: 6px 10px;
+    border: 1px solid #1f5eaf;
+    border-radius: 10px;
+    margin-top: 2%;
 }
 
 
@@ -192,8 +209,12 @@ nav {
     }
 
     .container {
-        width: 700px;
+        width: 90%;
     }
+
+    .contentPost {
+        width: 95%;
+      }
 
 
   
