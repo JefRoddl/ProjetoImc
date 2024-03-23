@@ -2,10 +2,9 @@ const indexController = require('../src/controller/indexController')
 const express = require('express');
 const router = express.Router();
 
-/*router.get('/', (req,res) => {
-    res.render('index')
-})*/
 
-router.get("/", indexController.showIndex)
+router.get("/", indexController.calculoImc)
+
+router.post("/", indexController.calculoImc)
 
 module.exports = router;

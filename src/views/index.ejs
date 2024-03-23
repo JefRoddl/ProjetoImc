@@ -57,18 +57,40 @@
                 </p>
 
                 <div class="inputCalc">
+                    <form action="" method="post">
                     <span>
                         "Altura"
                         <small>(ex.: 1,70)</small>
                     </span>
-                    <input type="text" placeholder="Metros" name="" id="alturaInput" maxlength="4">
+                    <input type="text" placeholder="Metros" name="alturaInput" id="alturaInput" maxlength="4" required>
                 </div>
                 <div class="inputCalc">
                     <span>
                         "Peso"
                         <small>(ex.: 69,2)</small>
                     </span>
-                    <input type="text" placeholder="Quilos" name="" id="pesoInput" maxlength="6">
+                    <input type="text" placeholder="Quilos" name="pesoInput" id="pesoInput" maxlength="6" required>    
+                </div>
+
+                <ul class="buttonsCalc">
+                    <li>
+                        <button type="submit" id="submiteCalc" class="buttonBlue">Calcular</button>
+                    </li>
+                    <li>
+                        <button type="button" id="clearCalc" class="buttonOrange">Resetar</button>
+                    </li>
+                </ul>
+            </form>
+                <img class="imgObesidade" src="/images/obesidade.jpg" alt="">
+                <div class="calcResult">
+                    <span>SEU IMC: <%= imc.toFixed(2) %></span>
+                    <strong></strong>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="search">
+                    <input type="text" placeholder="Procurar">
                 </div>
             </div>
         </div>
