@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get("/", indexController.calculoImc)
+router.get("/", indexController.showIndex)
 
 router.post("/", indexController.calculoImc)
 

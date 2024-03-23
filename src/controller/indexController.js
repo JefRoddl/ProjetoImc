@@ -1,5 +1,6 @@
 let indexController = {
     showIndex: (req, res) => {
+
         res.render('index')
     },
 
@@ -10,7 +11,7 @@ let indexController = {
         let imc = peso / (altura * altura);
     
           
-         res.render('index', {imc: imc})
+         res.render('indexImc', {imc: imc})
           
          
         
