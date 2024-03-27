@@ -13,9 +13,7 @@ let indexController = {
           
          res.render('indexImc', {imc: imc})
           
-         
-        
-    }
+    },
 
     
 }
